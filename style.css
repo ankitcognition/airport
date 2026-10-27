@@ -1,0 +1,75 @@
+
+.flight-page{
+    font-family:Arial, sans-serif;
+    background-color:rgb(231, 222, 222);
+    color:black;
+}
+
+.flight-header{
+    background-image:url("images/plane.png");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    padding:75px 30px;
+}
+
+.main-nav{
+    margin-top:15px;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:15px;
+}
+.main-nav a{
+    color:white;
+}
+.main-nav a:hover{
+    color:orange;
+}
+.flight-table{
+    width: 100%;
+    border-collapse:collapse;
+    margin-top:15px;
+    background-color:rgb(186, 177, 177);
+}
+.flight-table th,.flight-table td{
+    border:2px dashed lightblue;
+    padding:12px;
+    text-align:center;
+}
+.flight-table th{
+    background-color:navy;
+    color:white;
+}
+.flight-main{
+    padding:20px;
+}
+.flight-instructions,.flight-status{
+    margin-top:25px;
+}
+.flight-title,.table-title,.flight-instructions h3,.flight-status h3{
+    color:navy;
+}
+.flight-instructions li,.flight-status li{
+    margin-bottom:10px;
+}
+.flight-footer{
+    background-color:navy;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:25px;
+}
+.flight-footer a{
+    color:white;
+}
+.flight-footer a:hover{
+    color:orange;
+}
+
+
+
+
+
+
+
