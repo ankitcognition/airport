@@ -1,12 +1,11 @@
 
 
-*/flight page css*/
+/*flight page css*/
 .flight-page{
     font-family:Arial, sans-serif;
     background-color:rgb(231, 222, 222);
     color:black;
 }
-
 .flight-header{
     background-image:url("images/plane.png");
     background-size:cover;
@@ -14,7 +13,6 @@
     background-repeat:no-repeat;
     padding:75px 30px;
 }
-
 .main-nav{
     margin-top:15px;
     display:flex;
@@ -70,15 +68,14 @@
 }
 
 /* Lounge page css */
+
 .lounge-card{
     background-color:rgb(186, 177, 177);
     border:2px dashed lightblue;
     padding:20px;
     margin-top:20px;
 }
-.lounge-card h1,
-.lounge-card h2,
-.lounge-card h3{
+.lounge-card h1,.lounge-card h2,.lounge-card h3{
     color:navy;
 }
 .lounge-card h1,
@@ -128,67 +125,171 @@
     text-align:center;
     color:navy;
 }
+/*directory page css*/
+.directory-page{
+    font-family:Arial, sans-serif;
+    background-color:rgb(231, 222, 222);
+    color:black;
+}
+.directory-header{
+    background-image:url("images/plane.png");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    padding:75px 30px;
+}
+.directory-nav{
+    margin-top:15px;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:15px;
+}
 
-p
+.directory-nav a{
+    color:white;
+}
+.directory-nav a:hover{
+    color:orange;
+}
+.directory-main{
+    padding:20px;
+}
+.directory-title,.directory-table-title,.directory-instructions h3,.directory-status h3 {
+    color:navy;
+}
+.directory-table-title {
+    margin-top:25px;
+}
+.directory-table {
+    width:100%;
+    border-collapse:collapse;
+    margin-top:15px;
+    margin-bottom:25px;
+    background-color:rgb(186, 177, 177);
+}
+.directory-table th,.directory-table td{
+    border:2px dashed lightblue;
+    padding:12px;
+    text-align:center;
+}
+.directory-table th{
+    background-color:navy;
+    color:white;
+}
+.directory-instructions,.directory-status{
+    margin-top:25px;
+}
+.directory-instructions li,.directory-status li{
+    margin-bottom:10px;
+}
+.directory-footer{
+    background-color:navy;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:25px;
+}
+.directory-footer a{
+    color:white;
+}
+.directory-footer a:hover{
+    color:orange;
+}
 
-/* ── Directory Page Classes ─────────────────────────────── */
+/*home page css*/
 
-.dir-html{}
+.home-page{
+    font-family:Arial, sans-serif;
+    color:white;
+    margin:0;
 
-.dir-body{}
+    background-image:url("images/plane.png");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+.home-header{
+    text-align:center;
+    padding:35px 20px;
+}
+.home-header h1{
+    color:white;
+}
+.home-nav{
+    margin-top:25px;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:20px;
+}
+.home-nav a{
+    color:white;
+}
+.home-nav a:hover{
+    color:orange;
+}
+.home-main{
+    padding:20px;
+}
+.home-welcome{
+    text-align:center;
+    padding:30px;
+}
+.home-welcome h2{
+    color:white;
+}
 
-.dir-header{}
-
-.dir-nav{}
-
-.dir-nav-link{}
-
-.dir-nav-active{}
-
-.dir-main{}
-
-.dir-page-title{}
-
-.dir-intro{}
-
-.dir-bold{}
-
-.dir-section-title{}
-
-.dir-table{}
-
-.dir-thead{}
-
-.dir-thead-row{}
-
-.dir-th{}
-
-.dir-tbody{}
-
-.dir-tbody-row{}
-
-.dir-td{}
-
-.dir-guide-section{}
-
-.dir-guide-title{}
-
-.dir-guide-list{}
-
-.dir-guide-item{}
-
-.dir-ref-section{}
-
-.dir-ref-title{}
-
-.dir-ref-list{}
-
-.dir-ref-item{}
-
-.dir-strong{}
-
-.dir-footer{}
-
-.dir-footer-text{}
-
-.dir-footer-link{}
+.home-services{
+    text-align: center;
+    padding: 20px;
+}
+.home-services h2{
+    color:white;
+}
+.home-service{
+    background-color:rgba(0, 0, 0, 0.65);
+    border:2px solid lightblue;
+    padding:20px;
+    margin:20px auto;
+    max-width:700px;
+}
+.home-service h3{
+    color:white;
+}
+.home-service p{
+    color:white;
+}
+.home-service a{
+    display:inline-block;
+    background-color:navy;
+    color:white;
+    padding:10px 20px;
+    margin-top:10px;
+    text-decoration:none;
+}
+.home-service a:hover{
+    color:orange;
+}
+.home-ending{
+    text-align:center;
+    padding:35px 20px;
+    margin-top:25px;
+}
+.home-ending h2,.home-ending h3 {
+    color:white;
+}
+.home-footer{
+    background-color:rgba(0, 0, 0, 0.75);
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:25px;
+}
+.home-footer a {
+    color:white;
+}
+.home-footer a:hover {
+    color:orange;
+}
