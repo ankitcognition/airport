@@ -1,4 +1,6 @@
 
+
+*/flight page css*/
 .flight-page{
     font-family:Arial, sans-serif;
     background-color:rgb(231, 222, 222);
@@ -67,9 +69,63 @@
     color:orange;
 }
 
-
-
-
-
-
+/* Lounge page css */
+.lounge-card{
+    background-color:rgb(186, 177, 177);
+    border:2px dashed lightblue;
+    padding:20px;
+    margin-top:20px;
+}
+.lounge-card h1,
+.lounge-card h2,
+.lounge-card h3{
+    color:navy;
+}
+.lounge-card h1,
+.lounge-card h2,
+.price-info {
+    text-align:center;
+}
+.lounge-card li{
+    margin-bottom:10px;
+}
+.form-group{
+    margin-top:15px;
+}
+.form-group label{
+    display:block;
+    margin-bottom:5px;
+}
+.form-group input:not([type="radio"]) {
+    width:100%;
+    padding:10px;
+    box-sizing:border-box;
+}
+.terminal-radio p{
+    font-weight:bold;
+}
+.terminal-radio div{
+    margin-bottom:10px;
+}
+.terminal-radio input{
+    margin-right:8px;
+}
+.terminal-radio label{
+    display:inline;
+}
+.lounge-card button{
+    background-color:navy;
+    color:white;
+    padding:12px;
+    width:100%;
+    border:none;
+    margin-top:15px;
+}
+.lounge-card button:hover{
+    color:orange;
+}
+.booking-note{
+    text-align:center;
+    color:navy;
+}
 

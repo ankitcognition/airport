@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Executive Lounge Pass</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="flight-page">
+    <header class="flight-header">
+        <nav class="main-nav">
+            <a href="home.html">Home</a>
+            <a href="flights.html">Flight Departures</a>
+            <a href="lounge.html">Lounge Pass</a>
+            <a href="directory.html">Dining & Shops</a>
+        </nav>
+    </header>
+
+    <main class="flight-main">
+        <h2 class="flight-title">Executive Airport Lounge</h2>
+        <p>Enjoy comfort and relaxation before your flight<br>with our premium airport <b>lounge facilities</b></p>
+
+        <h3 class="table-title">Executive Lounge Pass</h3>
+        <div class="lounge-card">
+
+            <h2>Premium Lounge Pass</h2>
+
+            <h1>Rs.969</h1>
+            <p class="price-info">Per Person-Valid for 3 Hours Only</p>
+
+            <h3>Included Amenities</h3>
+            <ul>
+                <li>Buffet Meals</li>
+                <li>High-Speed Wi-Fi</li>
+                <li>Shower Facilities</li>
+                <li>Recliner Pods</li>
+            </ul>
+
+            <h3>Book Your Lounge Pass</h3>
+            <form action="#" method="get">
+                <div class="form-group">
+                    <label for="passenger-name">Passenger Name</label>
+                    <input type="text" id="passenger-name"
+                        name="passenger-name"
+                        placeholder="Enter your name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="flight-number">Flight Number</label>
+                    <input type="text" id="flight-number"
+                        name="flight-number"
+                        placeholder="e.g. UG101" required>
+                </div>
+
+                <div class="form-group terminal-radio">
+                    <p>Select Terminal:</p>
+                    <div>
+                        <input type="radio" id="terminal1"
+                            name="terminal" value="Terminal 1" required>
+                        <label for="terminal1">
+                            Terminal 1 - Domestic
+                        </label>
+                    </div>
+
+                    <div>
+                        <input type="radio" id="terminal2"
+                            name="terminal" value="Terminal 2">
+                        <label for="terminal2">
+                            Terminal 2 - International
+                        </label>
+                    </div>
+
+                </div>
+
+                <div class="form-group">
+                    <label for="booking-date">Booking Date</label>
+                    <input type="date" id="booking-date"
+                        name="booking-date" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="guests">Number of Guests</label>
+                    <input type="number" id="guests"
+                        name="guests" min="1" max="5" required>
+                </div>
+
+                <button type="submit">Book Lounge Pass</button>
+
+            </form>
+        </div>
+
+        <section class="flight-instructions">
+            <h3>Important Lounge Instructions</h3>
+            <ul>
+                <li>Carry your valid <b>boarding pass</b></li>
+                <li>Show your <b>lounge pass</b> at the entrance</li>
+                <li>Follow the lounge usage <b>guidelines</b></li>
+                <li>Pass validity is limited to<b> 3 hours only</b></li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer class="flight-footer">
+        <p>Email us at:
+            <a href="mailto:UdanGHatola@email.com">UdanGHatola@email.com</a></p>
+        <p>@2026 UdanGhatola</p>
+        <p>Designed by Ghanshyam</p>
+
+    </footer>
+
+</body>
+</html>
